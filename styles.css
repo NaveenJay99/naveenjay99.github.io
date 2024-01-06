@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+/*Transition*/
+
+a,
+.btn{
+    transition: all 300ms ease;
+}
+
+/*desktop navigation*/
+
+nav,.nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;    
+}
+
+.nav-links{
+    list-style: none;
+    font-size: 1.5rem;
+    gap: 2rem;
+}
+
+.logo{
+    font-size: 2rem;
+    
+}
+.logo:hover{
+    cursor: default;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: gray;
+}
+
+a:hover{
+    color: brown;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+
+}
+
+/*Hamburger Menu*/
+
+#hamburger-nav{
+    display: none;
+}
+
+.hamberger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icon span{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links{
+    position: absolute;
+    top: 10% ;
+    right: 80px;
+    background-color: white ;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+    z-index: 10;
+}
+
+.menu-links a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li{
+    list-style: none;
+}
+
+.menu-links.open{
+    max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+ .hamburger-icon.open span:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger-icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+    transform: none;
+}
+
+.hamburger-icon span:first-child {
+    opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+    transform: none;
+}
+
+
+/*Sections*/
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/*Profile section*/
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+.section__pic-container{
+     display: flex;
+     /* border-style:solid; */
+     border-radius: 2rem;
+     border-top-left-radius: 2rem;
+     border-bottom-right-radius: 2rem;
+     position: relative;
+     bottom: 0px;     
+}
+.pro-pic{
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+}
+
+.section__text{
+    align-self: center;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+.section__text p{
+    font-weight: 600;
+}
+
+.section__text__p1{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.section__text__p2{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+} 
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    
+}
+
+/*Icon*/
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+
+
+/*Buttons*/
+
+.btn-container{
+    display: flex; 
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: .5rem;
+    width: 8rem;
+    border-radius: 1.5rem;
+}
+
+.btn-color-1, .btn-color-2{
+    border: rgb(143, 142, 142) 0.15rem solid;
+}
+ 
+.btn-color-1:hover, .btn-color-2:hover  {
+    cursor: pointer;
+}
+
+.btn-color-1:hover, .btn-color-2:hover  {
+    background: gray ;
+}
+
+.btn-color-1:hover, .btn-color-2:hover  {
+    border: black 0.2rem soid;
+}
+
+/*ABOUT ME*/
+
+#about{
+    margin: 0;
+}
+
+.section__text__p1{
+    position: relative;
+    top: 5px;
+}
+
+.section__pic-container_about{
+    position: relative;
+    left: 180px;
+    top: 60px;
+}
+
+.about-pic{
+    border-radius: 20px;
+}
+
+.about-details-container{
+    position: relative;
+    top: 60px;
+    left: 220px;
+    width: 600px;
+}
+
+.arrow{
+    position: absolute;
+    right: 5rem;
+    bottom: -22rem;
+}
+
+
+/*Experiences*/
+
+.experience-details-container1{
+    width: 500px;
+    border: solid;
+    position: relative;
+    top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.academic-header{
+    text-align: center;
+}
+
+.experience-note{
+    display: flex;
+}
+
+.experience-details-container2{
+    width: 500px;
+    border: solid;
+    position: relative;
+    top: 60px;
+    padding: 20px;
+    right: -20px;
+    border-radius: 20px;
+}
+
+.experience-details-container-main{
+    display: flex;
+}
+
+.professional-header{
+    text-align: center;
+}
+
+.icon-arrow-2{
+    position: relative;
+    left: 1150px;
+    bottom: 20rem;
+    width:35px;
+}
+
+/*Projects*/
+.project1, 
+.project2{
+    border-style:  solid;
+    border-width: .15rem;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: gray;
+    margin: 60px;
+    position: relative;
+}
+.project1-name{
+    width: 400px;
+}
+.project-container{
+    display: flex;
+}
+
+.project1:hover, 
+.project2:hover{
+    background-color: rgb(244, 242, 242);
+}
+  
+
+.icon-arrow-3{
+    position: relative;
+    bottom: 420px;
+    left: 1300px;
+    width:35px;
+}
+
+/*Contact*/
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  .contact-info-upper-container:hover{
+    background-color:rgb(244, 242, 242) ;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+  }
+
+  /* FOOTER SECTION */
+
+footer {
+    height: 26vh;
+    margin: 0 rem;
+    background-color: rgb(233, 243, 243);
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  

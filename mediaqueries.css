@@ -1,0 +1,201 @@
+@media screen and (max-width:800px){
+    section{
+        margin-left: 0;
+        margin-right: 0;
+        height: 165vh;
+    }
+.pro-pic{
+        width: 400px;
+        position: relative;
+        top: 10px;    
+        left: 10%;
+        
+}
+
+.menu-links{
+        background-color:rgb(242, 238, 238);
+        border-radius: 20px;
+        top: 80px;
+        right: 20px;
+}
+    #profile{
+        display: block;
+        margin: 8px;
+}
+.section__text{
+        position: relative;
+        left: 30px;
+        top: 40px;
+        left: 10%;
+        
+}
+    .title-naveen{
+        font-size: 2rem;
+        position: relative;
+        /* left: 10%; */
+        
+}
+
+.title{
+    font-size: 2rem;
+    position: relative;
+    left: 10%;
+    
+}
+.section__text__p2{
+        font-size: 1rem;
+       
+}
+#desktop-nav{
+        display: none;
+}
+
+#hamburger-nav{
+        display: flex;
+        width: 420px;
+}
+/*about*/
+
+.section__text__p1{
+    display: relative;
+    left: 10%;
+}
+#about{
+    display: block;
+    margin: 8px;
+}
+
+.section-container{
+    display: block;
+}
+
+.arrow{
+    display: none;
+}
+
+.section__pic-container_about{
+    display: relative;
+    left: 40px
+}
+.about-pic{
+    border-radius: 150px;
+    width: 300px;
+    position: relative;
+    left: 6%;
+    top: 0px;
+}
+.about-details-container{
+    position: relative;
+    left: 6%;
+    top: 80px;
+    max-width: 370px;
+    text-align:justify
+}
+
+
+/*Experience*/
+.icon-arrow-2{
+    display: none;
+}
+.experience-details-container-main{
+    display: block;
+}
+
+#experience{
+    display: relative;
+    left: 50px;
+    top: 60px;
+
+}
+
+.experience-details-container1{
+    width: 340px;
+    margin-left: 10px;
+    text-align: justify;
+    display: relative;
+    left: 4%;
+}
+
+.experience-details-container2{
+    width: 340px;
+    left: 10px;
+    top: 80px;
+    text-align: justify;
+    display: relative;
+    left: 7%;
+}
+
+/*Project*/
+
+.project-container{
+    display: block;
+    
+}
+
+#projects{
+    display: relative;
+    left: 50px;
+}
+
+.icon-arrow-3{
+    display: none;
+}
+
+#projects{
+    margin-top: 500px;
+}
+
+.project1{
+    position: relative;
+    left: 6%;
+    margin: 0px;
+    width: 340px;
+}
+.project2{
+    position: relative;
+    left: 6%;
+    margin: 0px;
+    width: 340px;
+    top: 20px;
+    bottom: 20px;
+}
+
+.project1-img,
+.project2-img{
+    width: 340px;
+}
+
+.project1-note,
+.project2-note{
+    width: 340px;
+    text-align: justify;
+
+}
+
+/*contact*/
+
+.contact-info-upper-container{
+    display: block;
+    position: relative;
+    left:6%;
+    
+}
+
+
+/*footer*/
+
+footer{
+    width: 418px;
+}
+
+.nav-links{
+    font-size: .8rem;
+    gap: 1.5rem;
+}
+
+.copyright{
+    font-size: .6rem;
+}
+
+}
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Jayathissa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="assets/Media/Icon/new-icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Naveen Jay</div>
+        <div>
+            <ul class="nav-links"> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Naveen Jayathissa</div>
+        <div class="hamburger-menu"></div>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="pro-pic" src="assets/Media/images/dp.png " alt="Naveen's profile picture" width="300px" height="300px">
+        </div>
+        <div class="section__text">
+            <p class="section__text__hello"> Hello, I'm</p>
+            <h1 class="title-naveen">Naveen Jayathissa</h1>
+            <p class="section__text__p2">Computer Science Undergraduate</p>
+            <div class="btn-container ">
+                <!--there is a problem here cv wont open-->
+                <a href="assets/Media/CV/Naveen's CV.pdf" download><button class="btn btn-color-2" >Download CV
+                </button> </a>
+
+                
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
+                </button> 
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/naveen-jayathissa-134861292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B57wy0%2FoBRqO%2Fk0hk%2BO0p1A%3D%3D" target="newtab"><img class="icon" src="assets/Media/Socials/linkedin.png" alt=""></a>
+                <a href="https://www.facebook.com/naveen.jayathissa.9" target="newtab"><img class="icon" src="assets/Media/Socials/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/__n_jay/" target="newtab"><img class="icon" src="assets/Media/Socials/instagram.png" alt=""></a>
+                <a href="http://wa.me/+94702466805" target="newtab"><img class="icon" src="assets/Media/Socials/whatsapp.png" alt=""></a>
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Who am I?</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container_about">
+            <img
+              src="./assets/Media/images/dp.png"
+              alt="Profile picture"
+              class="about-pic" width="400px"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              
+            </div>
+            <div class="text-container">
+              <p>
+                I am currently studying computer science at the University of Kelaniya and I am passionate about this field. I enjoy the academic environment and I am constantly seeking new knowledge and skills to improve myself. My curiosity drives me to explore new areas and challenges, which has helped me to develop a solid foundation in the fundamental principles of computer science and also nurtured a mindset that thrives on exploration and innovation. I believe that every individual has a unique role to play in shaping the world and I am committed to fulfilling my responsibilities with diligence and excellence. I take pride in staying up-to-date with the latest technologies and proactively contribute to the evolution of the field.
+              </p>
+              <br>
+              <p>
+                I am committed to excellence in everything I do, whether it's solving technical problems or using my skills to benefit society. My journey as a computer science student is dynamic and evolving. I believe that passion, continuous learning, and the pursuit of excellence are crucial to making meaningful contributions in both the specialized field of computer science and the broader tapestry of our interconnected world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/Media/Icon/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+    </section>
+
+    <section id="experience">
+      <div class="experience-main">
+      <p class="section__text__p1">My</p>
+      <h2 class="title">Experiences</h2>
+
+      <div class="experience-details-container-main">
+
+        <div class="experience-details-container1">
+          <div class="academic-header">
+            <h2>Academic Experience</h2>
+          </div>
+          <p> <strong>01.</strong> I attended Kegalu Vidyalaya and achieved great success in my O/L examination. I obtained eight A passes and one B pass, which reflects my strong commitment to academic excellence and proficiency across diverse subjects. My experiences at Kegalu Vidyalaya have played a major role in shaping my journey, fostering discipline, and fueling my passion for growth</p>
+          <br><br>
+          <p><strong>02.</strong> I achieved an A grade in Physics and B grades in Chemistry and Combined Mathematics, which demonstrates my competence and flexibility across scientific disciplines. These results highlight my commitment to achieving academic excellence and my enthusiasm for exploring diverse fields within the realm of science.</p>
+          <br><br>
+          <p><strong>03.</strong> I am currently pursuing a Bachelor's degree in Computer Science at the University of Kelaniya in Sri Lanka. My passion for the field has driven me to explore its dynamic aspects.</p>
+        </div>
+  
+        <div class="experience-details-container2">
+          <div class="professional-header">
+            <h2>Professional Experience</h2>
+          </div>
+          <p> <strong>01. </strong>Working as an assistant at the District Electional Office in Kegalle after my Advanced Level examinations was a turning point in my professional growth. This opportunity allowed me to gain practical expertise and refine my skills in a real-world setting. By being a part of the electoral office, I was able to contribute my knowledge and skills to the community, which instilled in me a sense of responsibility and community involvement. My exposure to the intricate workings of the electoral process broadened my understanding of governance and civic duties. This hands-on experience not only complemented my academic background but also provided me with a practical perspective, bridging the gap between theory and application. The lessons and insights I gained during my time at the District Electional Office continue to guide my commitment to making meaningful contributions to both my academic pursuits and the broader community.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+      <img
+          src="assets/Media/Icon/arrow.png"
+          alt="Arrow icon"
+          class="icon-arrow-2"
+          onclick="location.href='./#projects'"
+        />
+
+
+    </section>
+     
+     <section id="projects">
+      <div class="projects-main">
+      <p class="section__text__p1">Here are some of My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="project-container">
+        <div class="project1">
+          <img src="assets/Media/images/project1.jpeg" alt="project1" width="400px" class="project1-img">
+          <div class="project1-name"> 
+            <h2>JamborIEE Unravel 2.0</h2>
+            <article class="project1-note">
+              <p>
+                I feel proud and happy when I volunteer. It's a privilege to contribute my time and skills to worthy causes. Seeing the positive impact on people's lives and communities reinforces my belief in giving back. The shared commitment among volunteers creates a powerful sense of unity. Being part of something greater than myself is a constant source of inspiration.
+              </p>
+
+            </article>
+          </div>
+        </div>
+
+        <div class="project2">
+          <img src="assets/Media/images/project2.jpeg" alt="project2" width="400px" class="project2-img">
+          <div class="project2-name"> 
+            <h2>Library Management System</h2>
+            <article class="project2-note">
+              <p project1-article></p>
+              <p>
+                I successfully created a Library Management System, showcasing my proficiency in software development. This project required expertise in database management, user interface design, and programming logic. It reflects my ability to address real-world needs and highlights my skills in programming languages and software design principles. This accomplishment demonstrates my commitment to practical innovation in the field of computer science.
+              </p>
+
+            </article>
+          </div>
+        </div>
+        
+
+      </div>
+
+    </div>
+      
+    </section>
+
+     <img
+          src="assets/Media/Icon/arrow.png"
+          alt="Arrow icon"
+          class="icon-arrow-3"
+          onclick="location.href='./#contact'"
+        /> 
+            
+    <section id="contact">
+          <p class="section__text__p1">Get in Touch</p>
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img
+                src="assets/Media/Icon/gmail-icon.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+              />
+              <p><a href="mailto:naveenjay.edu@gmail.com">naveenjay.edu@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img
+                src="assets/Media/Socials/linkedin.png"
+                alt="LinkedIn icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://www.linkedin.com/in/naveen-jayathissa-134861292?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B57wy0%2FoBRqO%2Fk0hk%2BO0p1A%3D%3D">LinkedIn</a></p>
+            </div>
+          </div>
+     </section>
+
+     <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p class="copyright">Copyright &#169; 2023 Naveen Jay. All Rights Reserved.</p>
+    </footer>
+             
+
+    <script src  ="scripts.js"></script>
+</body>
+</html>
+
+
